@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PAGINA CON MATERIALIZE</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/jquery-ui.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/materialize.min.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  
+    <script src='js/jquery.js'></script>
+    <script src='js/materialize.min.js'></script>
+    <script src='js/misfunciones.js'></script>
+</head>
+<body>
+   
+  <!-- barra de navegacion -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">Ingenieria</a></li>
+    <li><a href="#!">Artes</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">Facea</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">INICIO</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="general.html">General</a></li>
+        <li><a href="programas.html">Programas Academicos</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class ="container" >
+      
+  <div class="row">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="tab col s3"><a href="#sistemas">
+
+            Ingenieria Sistemas
+
+       
+    </li>
+        <li class="tab col s3"><a class="active" href="#electronica">
+            Ingenieria Electronica
+        </a></li>
+        <li class="tab col s3"><a class="active" href="#civil">
+            Ingenieria Civil
+        </a></li>
+        <li class="tab col s3"><a class="active"href="#mercadeo">
+            Mercadeo
+        </a></li>
+      </ul>
+    </div>
+    <div id="sistemas" class="col s12">Ingenieria Sistemas
+        <p>
+            El Programa de Ingeniería de Sistemas de la Universidad de Nariño se caracteriza por cimentar su cuerpo de conocimiento en manifiestos internacionales propuestos por la Asociación de Sistemas Informáticos – ACM, la sociedad computacional del Instituto de Ingenieros Eléctricos y Electrónicos- IEEE-CS, así como las propuestas nacionales particularmente de la Asociación Colombiana de Facultades de Ingeniería – ACOFI, en ese sentido la organización de su estructura curricular se enmarca bajo criterios nacionales e internacionales que orientan la Educación Superior en la disciplina. Esta característica ha sido motivada por criterios de movilidad dentro de ambientes académicos globalizados.
+            
+        </p>         
+                       
+                                
+        </a>
+                 <!-- Modal Trigger -->
+                 <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Mas Informacion</a>
+
+                 <!-- Modal Structure -->
+                 <div id="modal1" class="modal">
+                     <div class="modal-content">
+                     <h4>Sistemas</h4>
+                     <p>	
+                         Reconocimiento del MEN
+                         Registro Alta Calidad
+                         Resolución No. 6797
+                         
+                         	
+                         Duración / Créditos / Metodología
+                         10 Semestres – 275 – Presencial</p>
+                     </div>
+                     <div class="modal-footer">
+                     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Aceptar</a>
+                     </div>
+                 </div>
+    
+    
+
+    </div>
+    <div id="electronica" class="col s12">Ingenieria Electronica</div>
+    <div id="civil" class="col s12">Ingenieria Civil</div>
+    <div id="mercadeo" class="col s12">Mercadeo</div>
+  </div>
+  </div>
+
+    
+</body>
+</html>
